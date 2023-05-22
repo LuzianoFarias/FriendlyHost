@@ -5,39 +5,39 @@
  ## Funcionalidades
 
 ---
- ```
+ 
  A FriendlyHost possui as seguintes funcionalidades:
-``` 
+
 
  ### 1. Pesquisa de Locais Disponíveis: 
 ---
-```
+
  Os estudantes podem pesquisar por locais disponíveis próximos à sua instituição de ensino. Eles podem filtrar os resultados com base em critérios como localização, tipo de acomodação e comodidades oferecidas.
-```
+
 
 ### 2. Detalhes dos Locais:
 ---
- ```
+ 
  Cada local disponível possui uma página de detalhes que fornece informações relevantes para os estudantes, como fotos, descrição, comodidades disponíveis e regras estabelecidas pelo colaborador.
- ```
+ 
 
 ### 3. Avaliações e Comentários: 
 ---
-```
+
 Os estudantes têm a possibilidade de deixar avaliações e comentários sobre os locais em que ficaram hospedados. Essas informações ajudam outros estudantes a tomar decisões informadas e contribuem para a comunidade FriendlyHost.
-```
+
 
 ### 4. Solicitações de Hospedagem:   
 ---
-```
+
 Os estudantes podem enviar solicitações para se hospedar nos locais disponíveis. As solicitações são enviadas para os colaboradores, que avaliam as solicitações e podem aceitar ou recusar baseado em sua disponibilidade e critérios estabelecidos.
-```
+
 
 ### 5. Notificações: 
 ---
-```
+
 O sistema envia notificações aos estudantes informando sobre o status de suas solicitações de hospedagem e outras informações relevantes.
-```
+
 
 ## Requisitos
 ---
