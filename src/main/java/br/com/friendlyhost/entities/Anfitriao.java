@@ -54,7 +54,7 @@ public class Anfitriao {
     @Column(length = 30, nullable = false)
     private String complemento;
     @Column(length = 10, nullable = false)
-    private String estadoCivil;
+    private Boolean estadoCivil;
     @Column(nullable = false)
     private LocalDate dataNascimento;
     @Column(length = 10, nullable = false)
