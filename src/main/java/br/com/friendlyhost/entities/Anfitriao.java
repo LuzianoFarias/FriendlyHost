@@ -2,16 +2,10 @@ package br.com.friendlyhost.entities;
 
 import java.time.LocalDate;
 
-import jakarta.persistence.Column;
-import jakarta.persistence.Entity;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.GenerationType;
-import jakarta.persistence.Id;
-import jakarta.persistence.Table;
+import javax.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-import java.time.LocalDate;
 
 @Data
 @NoArgsConstructor
@@ -25,7 +19,7 @@ public class Anfitriao {
 	private Long idAnfitriao;
     //@ForeignKey(name = "id_quarto")// Chave estrangeira
     private Long idQuarto;
-    @Column(length = 50, nullable = false)// Tamanho Max campo; Campo Obrigatorio;
+    @Column(length = 50, nullable = false)// Tamanho Max campo; Campo Obrigatorio
     private String nome;
     @Column(length = 12, nullable = false)
     private String cpf;
